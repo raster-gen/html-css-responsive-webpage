@@ -37,16 +37,44 @@ body {
   font-family: Montserrat;
 }
 
+/* ------------------------------------------------------------------ */
+
 /* Исключаем возможность появления полосы прокрутки
  при возникновении отрицательных отступов */
 .wrapper{
   min-height: 100%;
   overflow: hidden;
 }
+/* ------------------------------------------------------------------ */
 
 /* Технический класс, который содержит общие стили */
 
 ._container {
   max-width: 1046px;
   margin: 0px auto;
+}
+
+/* -----------HEADER------------------------------------------------ */
+
+.header {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 50;
+}
+.header__container {
+  display: flex;
+}
+.header__logo {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__list {
+}
+.menu__item {
+}
+.menu__link {
 }
