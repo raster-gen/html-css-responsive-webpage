@@ -32,9 +32,10 @@ html,
 body {
   height: 100%;
   line-height: 1;
-  font-size: 16px;
-  color: #000;
+  font-size: 14px;
+  color: #252b42;
   font-family: Montserrat;
+  font-weight: 500;
 }
 
 /* ------------------------------------------------------------------ */
@@ -47,7 +48,7 @@ body {
 }
 /* ------------------------------------------------------------------ */
 
-/* Технический класс, который содержит общие стили */
+/** Технический класс, который содержит общие стили. Не является БЭМ блоком. выставляем по середине */
 
 ._container {
   max-width: 1046px;
@@ -55,6 +56,7 @@ body {
 }
 
 /* -----------HEADER------------------------------------------------ */
+
 
 .header {
   position: absolute;
@@ -65,16 +67,29 @@ body {
 }
 .header__container {
   display: flex;
+  min-height: 104px;
+  align-items: center;
 }
 .header__logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: inherit;
 }
 .header__menu {
+  margin: 0 0 0 137px;
+
 }
 .menu {
 }
 .menu__list {
+  display: flex;
+  gap: 21px;
 }
 .menu__item {
 }
 .menu__link {
+  color: #737373;
+  /* TODO line hight: 171% (24 / 14 * 100%) */
+  line-height: 171%; 
+  font-weight: 600;
 }
