@@ -82,11 +82,22 @@ body {
 }
 @media screen and (max-width: 992px) {
   .header__menu {
-    margin: 0 0 0 80px
+    margin: 0 0 0 80px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__menu {
+    margin: 0 0 0 40px;
+  }
+}
+@media screen and (max-width: 479px) {
+  .header__menu {
+    margin: 0 0 0 20px;
   }
 }
 
 .menu {
+  padding: 5px 0;
 }
 .menu__list {
   display: flex;
@@ -100,4 +111,13 @@ body {
   /* ! line-height: 171% (24px (line-height) / 14px (font-size) * 100%) */
   line-height: 171%; 
   font-weight: 600;
+}
+
+@media screen and (max-width: 479px) {
+  .menu__link {
+    font-size: 18px;
+  }
+  .menu__list {
+    gap: 15px;
+  }
 }
