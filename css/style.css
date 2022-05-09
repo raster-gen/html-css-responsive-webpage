@@ -53,6 +53,8 @@ body {
 ._container {
   max-width: 1046px;
   margin: 0px auto;
+  padding: 0 15px;
+  box-sizing: content-box;
 }
 
 /* -----------HEADER------------------------------------------------ */
@@ -77,19 +79,25 @@ body {
 }
 .header__menu {
   margin: 0 0 0 137px;
-
 }
+@media screen and (max-width: 992px) {
+  .header__menu {
+    margin: 0 0 0 80px
+  }
+}
+
 .menu {
 }
 .menu__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 21px;
 }
 .menu__item {
 }
 .menu__link {
   color: #737373;
-  /* TODO line hight: 171% (24 / 14 * 100%) */
+  /* ! line-height: 171% (24px (line-height) / 14px (font-size) * 100%) */
   line-height: 171%; 
   font-weight: 600;
 }
