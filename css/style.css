@@ -658,8 +658,7 @@ body {
 }
 
 .getintouch__items {
-  display: flex;
-  align-items: center;
+  
 }
 .getintouch__item {
   flex: 0 1 33.333%;
@@ -717,6 +716,34 @@ body {
 .item-getintouch_active {
   background: #252b42;
   color: #fff;
+  /* padding: 80px 15px; */
+}
+
+.item-getintouch_active .getintouch__button {
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.item-getintouch_active .getintouch__button:hover {
+  background-color: #FFF;
+  color: #252b42;
+}
+
+@media screen and (min-width: 992px) {
+  .getintouch__items {
+    display: flex;
+    align-items: center;
+  }
+
+  .item-getintouch_active {
+    background: #252b42;
+    color: #fff;
+    padding: 80px 15px;
+  }
+
+  .item-getintouch {
+    
+  }
 }
 /** ---------------Footer------------------ */
 
