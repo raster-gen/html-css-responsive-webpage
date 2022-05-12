@@ -649,6 +649,7 @@ body {
 }
 .getintouch {
   padding: 80px 0 136px 0;
+  background: #f3f3f3;
 }
 .getintouch__container {
 }
@@ -741,10 +742,72 @@ body {
     padding: 80px 15px;
   }
 
-  .item-getintouch {
-    
+}
+
+/* *---------------About Us---------------- */
+
+.page__contact {
+}
+.contact {
+  background: #FAFAFA;
+}
+.contact__container {
+}
+.contact__body {
+  display: flex;
+  justify-content: space-between;
+  margin: 42px 0;
+}
+.contact__content {
+}
+.contact__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 133%;
+  letter-spacing: 0.1px;
+  padding: 10px 5px 10px 0;
+
+}
+.contact__text {
+  color: #737373;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 143%;
+  letter-spacing: 0.2px;
+
+}
+.contact__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: #FF7B47;
+  color: #fff;
+  line-height: 142%;
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 0 40px;
+  margin: 0px 38px;
+  border: 1px solid #FF7B47;
+  transition: all 0.3s ease 0s;
+
+}
+.contact__button:hover {
+  background: #fff;
+  color: #FF7B47;
+  
+}
+
+@media screen and (max-width: 534px) {
+  .contact__body {
+    flex-direction: column;
+  }
+  .contact__button {
+    padding: 20px;
+    margin: 20px 10px;
   }
 }
+
 /** ---------------Footer------------------ */
 
 .footer {
