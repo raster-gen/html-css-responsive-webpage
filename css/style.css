@@ -539,6 +539,31 @@ body {
   line-height: calc(24 / 14 * 100%);
 }
 
+/**----------------Clients----------------  */
+
+.page__clients {
+}
+.clients {
+
+}
+.clients__container {
+  padding: 50px 0;
+}
+
+.clients__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:center;
+  min-width: 140px;
+}
+.clients__item {
+  padding: 8px 5px;
+  flex: 0 1 16.6667%;
+  text-align: center;
+  max-width: 100%;
+}
+
 
 /** ---------------Footer------------------ */
 
