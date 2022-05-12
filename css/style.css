@@ -714,8 +714,9 @@ body {
   background-color: #FF7B47;
   color: #fff;
 }
-item-getintouch_active{
-  
+.item-getintouch_active {
+  background: #252b42;
+  color: #fff;
 }
 /** ---------------Footer------------------ */
 
