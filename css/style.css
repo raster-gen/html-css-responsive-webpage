@@ -464,6 +464,80 @@ body {
   padding: 0 0 60% 0;
 }
 
+/** ---------------Who We Are ------------- */
+
+.page__whoweare {
+  background: #fff;
+}
+.whoweare {
+}
+.whoweare__container {
+  padding: 80px 0 130px 0;
+}
+
+.whoweare__header {
+  margin: 0 0 100px 0;
+}
+.whoweare__body {
+  display: flex;
+  align-items: flex-start;
+}
+.whoweare__video {
+  flex: 0 0 57%;
+  position: relative;
+  padding: 0 0 42.25% 0;
+
+}
+.whoweare__video iframe {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.whoweare__content {
+  flex: 1 1 auto;
+  padding: 20px 0 0 121px;
+}
+.whoweare__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 142%;
+  letter-spacing: 0.2px;
+}
+.whoweare__text {
+  color: #737373;
+  line-height: 142%;
+  padding: 10px 0 50px 0;
+}
+.whoweare__items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  
+}
+.whoweare__item {
+  
+}
+.item-whoweare {
+  display: flex;
+  gap: 20px;
+}
+.item-whoweare__icon {
+}
+.item-whoweare__body {
+  
+}
+.item-whoweare__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(24 / 16 * 100%);
+  letter-spacing: 0.1px;
+}
+.item-whoweare__text {
+  line-height: calc(24 / 14 * 100%);
+}
 
 
 /** ---------------Footer------------------ */
