@@ -71,7 +71,6 @@ body {
   height: 100%;
   top: 0;
   left: 0;
-  /* ? object-fit */
   object-fit: cover;
 }
 
@@ -129,6 +128,10 @@ body {
   /* ! line-height: 171% (24px (line-height) / 14px (font-size) * 100%) */
   line-height: 171%; 
   font-weight: 600;
+}
+
+.menu__link:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 479px) {
