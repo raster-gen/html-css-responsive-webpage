@@ -811,5 +811,74 @@ body {
 /** ---------------Footer------------------ */
 
 .footer {
+  background: #17213C;
+}
+.footer__container {
+}
+
+.footer__body {
+  padding: 50px 0 52px 0;
   
+  
+  
+}
+.footer__items {
+  display: flex;
+}
+.footer__item {
+}
+.item-footer {
+  flex: 1 1 20%;
+  color: #fff;
+}
+.item-footer__lable {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1px;
+  padding: 0 0 20px 0;
+}
+.item-footer__list > *:not(:last-child) {
+  
+}
+.item-footer__list-item {
+  
+}
+
+.list-item:not(:last-child) {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.2px;
+  padding: 0 0 10px 0;
+  
+}
+.list-item__link {
+  color: inherit;
+}
+
+.list-item__link:hover {
+  text-decoration: underline;
+}
+
+.list__icon {
+  
+  display: flex;
+  flex-direction: column;
+
+  padding: 5px 0 10px 34px;
+  min-height: 30px;
+}
+
+.list-item_phone {
+  background: url(/img/footer/phone.svg) left no-repeat;
+  padding-left: 30px;
+}
+
+.list-item_map{
+  background: url(/img/footer/addr.svg) left no-repeat;
+}
+
+.list-item_email {
+  background: url(/img/footer/send.svg) left no-repeat;
 }
