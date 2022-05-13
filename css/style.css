@@ -657,6 +657,12 @@ body {
   min-height: 58px;
   color: #fff;
   padding: 0px 22px;
+  transition: all 0.3s ease 0s;
+}
+
+.subscribe__button:hover {
+  background: #07f95c;
+  font-size: 1.1em;
 }
 
 
