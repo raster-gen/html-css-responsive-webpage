@@ -888,14 +888,14 @@ body {
 }
 
 .list-item_phone {
-  background: url(./img/footer/phone.svg) left no-repeat;
+  background: url(../img/footer/phone.svg) left no-repeat;
   padding-left: 30px;
 }
 
 .list-item_map{
-  background: url(./img/footer/addr.svg) left no-repeat;
+  background: url(../img/footer/addr.svg) left no-repeat;
 }
 
 .list-item_email {
-  background: url(./img/footer/send.svg) left no-repeat;
+  background: url(../img/footer/send.svg) left no-repeat;
 }
